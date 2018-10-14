@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content="width=device-width, initial-scale=1"> 
+	<title>Sandbox-Z - Мобильные операторы</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<section class="main-navigation">
+	<div class="container">
+		<img class="logo" src="img/logo.png">
+			<ul class="site-navigation">
+				<a href="account.html" class="site-navigation__link">
+					<li class="balance-navigation__item">Мой баланс</li>
+				</a>
+				<a href="tasks.html" class="site-navigation__link">
+					<li class="task-navigation__item">Мои задания</li>
+				</a>
+				<a href="payments.html" class="site-navigation__link">
+					<li class="transactions-navigation__item">Мои платежи</li>
+				</a>
+			</ul>
+			<ul class="user-navigation">
+				<a href="#" class="user-navigation__link">                        
+					<li class="logout-navigation__item">Выход</li>
+				</a>
+			</ul>
+	</div>
+</section>
+
+<section class="mobile-data">
+	<h2 class="mobile-data__main-title">а теперь мы заполним несколько окошек</h2>
+	<div class="container">
+		<form class="mobile-data__form" action="#" method="post">                          <!--добавить action для формы -->
+			<div class="mobile-data__fullname">
+	            <p class="mobile-data__form-cell">
+	                <label class="mobile-data__title" for="user-surname">фамилия</label>
+	                <input class="mobile-data__field" id="user-surname" type="text" name="surname" placeholder="">
+	            </p>
+	            <p class="mobile-data__form-cell">
+	                <label class="mobile-data__title" for="user-name">имя</label>
+	                <input class="mobile-data__field" id="user-name" type="text" name="name" placeholder="">
+	            </p>
+	            <p class="mobile-data__form-cell">
+	                <label class="mobile-data__title" for="user-patronymic">отчество</label>
+	                <input class="mobile-data__field" id="user-patronymic" type="text" name="patronymic" placeholder="">
+	            </p>
+	        </div>
+	            <p class="mobile-data__form-cell">
+	                <label class="mobile-data__title" for="user-phone">номер телефона</label>
+	                <input class="mobile-data__field mobile-data__field-phone" id="user-phone" type="tel" name="phone" placeholder="+ 375 (__) ___ __ __ ">
+	            </p>
+	            <div class="mobile-data__money-amount">
+		            <p class="money-amount__cell">
+		                <input class="mobile-data__field money-amount__field" id="user-rub" type="text" name="rub" placeholder="">
+		                <label class="mobile-data__title money-amount__title" for="user-rub">рублей</label>
+		            </p>
+		            <p class="money-amount__cell">
+		                <input class="mobile-data__field money-amount__field" id="user-kopeck" type="text" name="kopeck" placeholder="">
+		                <label class="mobile-data__title money-amount__title" for="user-kopeck">копеек</label>
+		            </p>
+	            </div>	           
+	            <button class="button mobile-data__button" type="submit">я заполнил все окошки</button>
+	    </form>
+	 </div>		
+</section>
+	
+</body>
+</html>
